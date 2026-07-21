@@ -1,0 +1,6 @@
+{
+  "name": "Aetheris Power Systems",
+  "description": "The flagship digital identity of Aetheris Power Systems - presenting elite high-voltage engineering, precision substations, and critical grid infrastructure solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

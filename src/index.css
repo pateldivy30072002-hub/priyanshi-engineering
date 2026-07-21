@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700;800;900&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Archivo", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Newsreader", Georgia, serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-brand-cyan: #DBA39A;
+  --color-brand-amber: #b25d51;
+  --color-brand-blue: #1e293b;
+  --color-brand-charcoal: #FEFCF3;
+  
+  --color-navy: #0B1730;
+  --color-navy-2: #101F3D;
+  --color-navy-3: #16264A;
+  --color-ink: #182A54;
+  --color-cream: #FEFCF3;
+  --color-cream-dim: #E7E1D6;
+  --color-clay: #DBA39A;
+  --color-red: #E23B36;
+  --color-red-deep: #C1272D;
+  --color-paper: #EAF1FB;
+  --color-paper-2: #D6E4F7;
+  --color-bolt-blue: #2E7BFF;
+  --color-bolt-yellow: #FFCE1F;
+  --color-hero-ink: #14264B;
+  
+  --animate-slide-slow: slide 34s linear infinite;
+  --animate-marquee: slide 40s linear infinite;
+  --animate-marquee-rev: slide-rev 48s linear infinite;
+}
+
+@utility bg-grid-blueprint {
+  background-size: 52px 52px;
+  background-image: 
+    linear-gradient(to bottom, rgba(148, 178, 235, 0.06) 1px, transparent 1px),
+    linear-gradient(to right, rgba(148, 178, 235, 0.06) 1px, transparent 1px);
+}
+
+@utility bg-grid-blueprint-fine {
+  background-size: 13px 13px;
+  background-image: 
+    linear-gradient(to bottom, rgba(148, 178, 235, 0.04) 1px, transparent 1px),
+    linear-gradient(to right, rgba(148, 178, 235, 0.04) 1px, transparent 1px);
+}
+
+@utility bg-grid-hero-paper {
+  background-size: 44px 44px;
+  background-image: 
+    linear-gradient(to bottom, rgba(24, 42, 84, 0.09) 1px, transparent 1px),
+    linear-gradient(to right, rgba(24, 42, 84, 0.09) 1px, transparent 1px);
+}
+
+@utility shadow-glow-red {
+  box-shadow: 0 0 15px rgba(226, 59, 54, 0.35);
+}
+
+/* Lightning flicker animations */
+@keyframes flick1 {
+  0%, 100% { opacity: 0; }
+  2% { opacity: 1; }
+  4% { opacity: 0.2; }
+  6% { opacity: 0.9; }
+  9% { opacity: 0; }
+  40% { opacity: 0; }
+  41% { opacity: 0.8; }
+  43% { opacity: 0; }
+}
+
+@keyframes flick2 {
+  0%, 100% { opacity: 0; }
+  55% { opacity: 0; }
+  57% { opacity: 1; }
+  59% { opacity: 0.3; }
+  61% { opacity: 0.85; }
+  64% { opacity: 0; }
+}
+
+@keyframes flick3 {
+  0%, 100% { opacity: 0; }
+  22% { opacity: 0; }
+  24% { opacity: 0.9; }
+  26% { opacity: 0.2; }
+  28% { opacity: 0.8; }
+  31% { opacity: 0; }
+  78% { opacity: 0; }
+  80% { opacity: 0.75; }
+  82% { opacity: 0; }
+}
+
+@keyframes flash {
+  0%, 100% { opacity: 0; }
+  2% { opacity: 0.5; }
+  5% { opacity: 0; }
+  41% { opacity: 0.4; }
+  43% { opacity: 0; }
+}
+
+@keyframes flashY {
+  0%, 100% { opacity: 0; }
+  57% { opacity: 0.42; }
+  60% { opacity: 0; }
+}
+
+@keyframes slide {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes slide-rev {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
+.bolt-b1 {
+  animation: flick1 5.5s infinite;
+}
+
+.bolt-b2 {
+  animation: flick2 6.5s infinite;
+}
+
+.bolt-b3 {
+  animation: flick3 7.5s infinite;
+}
+
+.flash-b1 {
+  animation: flash 5.5s infinite;
+}
+
+.flash-b2 {
+  animation: flashY 6.5s infinite;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0B1730;
+}
+::-webkit-scrollbar-thumb {
+  background: #DBA39A;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E23B36;
+}
+
+

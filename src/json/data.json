@@ -1,0 +1,219 @@
+{
+  "navLinks": [
+    { "name": "About", "href": "#about" },
+    { "name": "Process", "href": "#process" },
+    { "name": "Products", "href": "#portfolio" },
+    { "name": "Services", "href": "#services" },
+    { "name": "Projects", "href": "#projects" },
+    { "name": "Clients", "href": "#clients" }
+  ],
+  "pillars": [
+    {
+      "id": "01",
+      "tag": "SOURCING",
+      "title": "Genuine electrical assets.",
+      "desc": "Sourced directly from leading OEMs with full warranty and traceability. From MV spring charging motors to protection relays."
+    },
+    {
+      "id": "02",
+      "tag": "CONSULTING",
+      "title": "Obsolescence management.",
+      "desc": "Expert selection support and backward-compatible retrofitting. We advise on legacy relays, switchgears, and contactors."
+    },
+    {
+      "id": "03",
+      "tag": "SERVICE & AMC",
+      "title": "On-site lifecycle support.",
+      "desc": "Preventive servicing, breaker overhauling, re-insulation of MV chambers and quick emergency repair services on site."
+    }
+  ],
+  "safetyCommitments": [
+    { "title": "Hazard Prevention", "desc": "Identify and eliminate potential electrical hazards before beginning any maintenance." },
+    { "title": "Full Compliance", "desc": "Strict adherence to Indian Standards (IS), IE rules, and state electricity board safety protocols." },
+    { "title": "Rigorous Training", "desc": "Our technical team undergoes mandatory safety training for handling up to 33 kV equipment." },
+    { "title": "Zero compromise", "desc": "Ensuring safe isolation, earthing, discharge checks, and proper PPE before contact." }
+  ],
+  "qualityCommitments": [
+    { "title": "Customer Focus", "desc": "Meeting precise customer requirements and providing genuine, traceable spare parts." },
+    { "title": "Process Excellence", "desc": "Applying systematic testing procedures (dielectric, injection) before breaker charging." },
+    { "title": "Continuous Improvement", "desc": "Constantly refining our overhauling processes to increase equipment life." },
+    { "title": "Reliability", "desc": "Zero defect policy. Guaranteed 1-year warranty on major servicing and overhauling." }
+  ],
+  "alsoOffered": [
+    "Retrofitting & Upgradation",
+    "Vermin-Proofing",
+    "Cable-Chamber Dressing",
+    "Rain-Guard Fixing"
+  ],
+  "productRanges": [
+    {
+      "id": "transformer",
+      "rn": "01",
+      "title": "Transformer Spares",
+      "desc": "Bushings, terminals, radiators & fittings for distribution and power transformers."
+    },
+    {
+      "id": "switchgear",
+      "rn": "02",
+      "title": "Switchgear Products",
+      "desc": "Contactors, MPCBs, RCCBs, meters, timers & motor-protection devices for LV panels."
+    },
+    {
+      "id": "mv",
+      "rn": "03",
+      "title": "MV Switchgear",
+      "desc": "Motors, coils, epoxy insulation, CTs & auxiliary devices for VCB panels."
+    },
+    {
+      "id": "relays",
+      "rn": "04",
+      "title": "Numerical Relays",
+      "desc": "Microprocessor protection relays from ABB, Siemens, GE Multilin & Schneider."
+    },
+    {
+      "id": "refurb",
+      "rn": "05",
+      "title": "Refurbished Relays",
+      "desc": "Legacy & obsolete relays — reconditioned, tested and supported for ageing panels."
+    }
+  ],
+  "productsByRange": {
+    "transformer": [
+      { "title": "Distribution Transformers", "featured": true },
+      { "title": "Oil-Filled Transformers" },
+      { "title": "HV Bushings & Terminals" },
+      { "title": "Transformer Spare Parts" },
+      { "title": "Fittings & Accessories" },
+      { "title": "Radiators & Tap-Changer Spares" },
+      { "title": "Buchholz Relays" }
+    ],
+    "switchgear": [
+      { "title": "Power Contactors", "featured": true },
+      { "title": "Motor Protection CB · MPCB" },
+      { "title": "Residual Current Devices" },
+      { "title": "Digital Panel Meters" },
+      { "title": "Rotary Load-Break Switches" },
+      { "title": "Switch-Disconnectors" },
+      { "title": "Timing Devices · MCCB" }
+    ],
+    "mv": [
+      { "title": "Epoxy Housing & Barriers", "featured": true },
+      { "title": "Spring-Charging Motors" },
+      { "title": "Current Transformers" },
+      { "title": "Tripping & Closing Coils" },
+      { "title": "Epoxy Resin Spouts" },
+      { "title": "Auxiliary Switches" },
+      { "title": "VCB Spares · Annunciators" }
+    ],
+    "relays": [
+      { "title": "Feeder Protection", "featured": true, "brand": "ABB" },
+      { "title": "Motor Protection" },
+      { "title": "Transformer Protection" },
+      { "title": "Overcurrent & Earth-Fault" },
+      { "title": "Differential Protection" },
+      { "title": "Distance Protection" },
+      { "title": "Busbar Protection" }
+    ],
+    "refurb": [
+      { "title": "Electromechanical Relays", "featured": true },
+      { "title": "Protection Relays" },
+      { "title": "Legacy Relay Units" },
+      { "title": "Reconditioned Units" },
+      { "title": "Static & Solid-State" },
+      { "title": "Drop-in Replacements" },
+      { "title": "Legacy Support" }
+    ]
+  },
+  "services": [
+    {
+      "n": "01",
+      "title": "VCB Servicing",
+      "desc": "Spring-charge, closing, tripping & interlock mechanisms, control-circuit healthiness, limb & pole alignment and vacuum-interrupter inspection.",
+      "tag": "INDOOR · AIS · GIS"
+    },
+    {
+      "n": "02",
+      "title": "VCB Overhauling",
+      "desc": "Full mechanism overhaul, lubrication of moving parts, snatch-gap measurement and drive-shaft & insulator checks — tested before charging.",
+      "tag": "WORKSHOP & SITE"
+    },
+    {
+      "n": "03",
+      "title": "33 kV Panel Servicing",
+      "desc": "Dismantling & re-insulation of bus spouts, support insulators, CTs & PTs with heat-shrink sleeving; busbar-chamber cleaning and enamel painting.",
+      "tag": "33 kV INDOOR"
+    },
+    {
+      "n": "04",
+      "title": "Epoxy Housing Re-insulation",
+      "desc": "Dismantling epoxy housing assemblies, cleaning sulphur & moisture, re-insulating and refixing to the VCB track.",
+      "tag": "HV INSULATION"
+    },
+    {
+      "n": "05",
+      "title": "GIS Gas & Interlock Service",
+      "desc": "Gas-level checking & filling, leakage rectification, interlock-circuit inspection and auxiliary-switch alignment on GIS chambers.",
+      "tag": "GIS"
+    },
+    {
+      "n": "06",
+      "title": "Testing & Emergency Support",
+      "desc": "Pre-charging breaker testing under client supervision, rapid on-site fault attendance and just-in-time supply of spares.",
+      "tag": "TESTED · 1-YR WARRANTY"
+    }
+  ],
+  "flagshipProject": {
+    "title": "AMC for CG-make 11 kV indoor VCB panels at Bhubaneswar Airport.",
+    "client": "Airports Authority of India",
+    "site": "T2 Power Substation",
+    "location": "Bhubaneswar, Odisha",
+    "scope": "CG-make 11 kV Indoor VCB"
+  },
+  "projects": [
+    { "title": "Authorised partner for switchgear panel services", "client": "CROMPTON GREAVES · ACROSS ODISHA" },
+    { "title": "Repairing & servicing of all types of VCBs", "client": "TP NORTHERN ODISHA DISTRIBUTION LTD" },
+    { "title": "Supply of VCB spare parts", "client": "TP NORTHERN ODISHA DISTRIBUTION LTD" },
+    { "title": "Supply of panel consumable materials", "client": "TP WESTERN ODISHA DISTRIBUTION LTD" },
+    { "title": "VCB spares & services", "client": "UTKAL BUILDERS · BHUBANESWAR" },
+    { "title": "Panel maintenance works", "client": "FALCON INDIA · BHUBANESWAR" },
+    { "title": "Installation & service of switchgear panels", "client": "L&T MAKE · ODISHA" },
+    { "title": "Installation & commissioning of 11 kV indoor panels", "client": "STELMEC MAKE · ODISHA" }
+  ],
+  "clients": [
+    { "name": "Airports Authority of India", "role": "CLIENT", "desc": "CLIENT · AMC" },
+    { "name": "OPTCL", "role": "CLIENT", "desc": "ODISHA POWER TRANSMISSION" },
+    { "name": "TPNODL", "role": "CLIENT", "desc": "TP NORTHERN ODISHA" },
+    { "name": "TPWODL", "role": "CLIENT", "desc": "TP WESTERN ODISHA" },
+    { "name": "Utkal Builders", "role": "CLIENT", "desc": "BHUBANESWAR" },
+    { "name": "Falcon India", "role": "CLIENT", "desc": "BHUBANESWAR" },
+    { "name": "Crompton Greaves", "role": "PRINCIPAL BRAND", "desc": "PRINCIPAL BRAND" },
+    { "name": "ABB", "role": "PRINCIPAL BRAND", "desc": "PRINCIPAL BRAND" },
+    { "name": "Siemens", "role": "PRINCIPAL BRAND", "desc": "PRINCIPAL BRAND" },
+    { "name": "Schneider Electric", "role": "PRINCIPAL BRAND", "desc": "PRINCIPAL BRAND" },
+    { "name": "Hitachi Energy", "role": "PRINCIPAL BRAND", "desc": "PRINCIPAL BRAND" },
+    { "name": "Larsen & Toubro", "role": "PRINCIPAL BRAND", "desc": "PRINCIPAL BRAND" },
+    { "name": "GE Multilin", "role": "PRINCIPAL BRAND", "desc": "PRINCIPAL BRAND" },
+    { "name": "Alstom", "role": "PRINCIPAL BRAND", "desc": "PRINCIPAL BRAND" },
+    { "name": "Stelmec", "role": "PRINCIPAL BRAND", "desc": "PRINCIPAL BRAND" },
+    { "name": "C&S Electric", "role": "PRINCIPAL BRAND", "desc": "PRINCIPAL BRAND" },
+    { "name": "Secure Meters", "role": "PRINCIPAL BRAND", "desc": "PRINCIPAL BRAND" },
+    { "name": "Swastik Electro", "role": "PRINCIPAL BRAND", "desc": "PRINCIPAL BRAND" }
+  ],
+  "processSteps": [
+    { "phase": "01", "title": "Survey", "desc": "Initial site check & load analysis" },
+    { "phase": "02", "title": "Design", "desc": "Custom wiring schematics & select parameters" },
+    { "phase": "03", "title": "Source", "desc": "Genuine OEM parts procurement" },
+    { "phase": "04", "title": "Recon.", "desc": "Refurbishing, mounting and auxiliary setup" },
+    { "phase": "05", "title": "Test", "desc": "Secondary injection & dielectric checks" },
+    { "phase": "06", "title": "Install", "desc": "Panel physical alignment & coupling" },
+    { "phase": "07", "title": "Commission", "desc": "Live grid synchronization & pre-charge checks" },
+    { "phase": "08", "title": "Service", "desc": "Lubrication, alignment & preventative checks" },
+    { "phase": "09", "title": "AMC", "desc": "Scheduled lifetime support & breakdown response" }
+  ],
+  "stats": [
+    { "value": "33", "suffix": "kV", "label": "Switchgear serviced up to" },
+    { "value": "5", "suffix": "+", "label": "Product ranges under one partner" },
+    { "value": "9", "suffix": "+", "label": "Utilities & contractors served" },
+    { "value": "2", "suffix": "", "label": "Offices — Jajpur & Bhubaneswar" }
+  ]
+}
