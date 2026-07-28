@@ -299,12 +299,6 @@ export default function AboutContact() {
                 <div className="w-11 h-11 rounded-xl bg-red/10 border border-red/25 flex items-center justify-center text-red shrink-0">
                   <Award className="w-4.5 h-4.5" />
                 </div>
-                <div>
-                  <span className="block text-[9px] text-slate-500 uppercase tracking-widest font-semibold">Regulatory Credentials</span>
-                  <span className="block text-slate-800 text-xs font-semibold">
-                    Class A Electrical License (Lic No. 1621-A/2016-Odisha)
-                  </span>
-                </div>
               </motion.div>
             </div>
 
