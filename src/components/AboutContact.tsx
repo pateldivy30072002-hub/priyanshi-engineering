@@ -37,7 +37,7 @@ export default function AboutContact() {
           phone: formData.phone,
           range: formData.range,
           message: formData.message || 'No additional details provided',
-          _subject: `Priyanshi Engineering RFQ: ${formData.range} from ${formData.name}`
+          _subject: `New Contact Form Submission from ${formData.name}`
         })
       });
 
@@ -52,7 +52,7 @@ export default function AboutContact() {
     } catch (err) {
       console.error('Submission error:', err);
       // Even if API is blocked by CORS/network, allow graceful fallback & mailto
-      setErrorMessage('Network transmission encountered an issue. You can also send directly via your email client below.');
+      setErrorMessage("We couldn't send your message at the moment. You can also contact us directly using your email client below.");
     } finally {
       setIsSubmitting(false);
     }
