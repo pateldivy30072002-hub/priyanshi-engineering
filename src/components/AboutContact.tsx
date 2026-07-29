@@ -289,7 +289,7 @@ export default function AboutContact() {
               </motion.div>
 
               {/* Licensing */}
-              <motion.div 
+              {/* <motion.div 
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, margin: "-50px" }}
@@ -299,7 +299,7 @@ export default function AboutContact() {
                 <div className="w-11 h-11 rounded-xl bg-red/10 border border-red/25 flex items-center justify-center text-red shrink-0">
                   <Award className="w-4.5 h-4.5" />
                 </div>
-              </motion.div>
+              </motion.div> */}
             </div>
 
           </div>
