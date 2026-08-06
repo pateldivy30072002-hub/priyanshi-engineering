@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "react-example",
+  "name": "priyanshi-engineering-next",
   "compatibility_date": "2026-07-21",
   "observability": {
     "enabled": true
